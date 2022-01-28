@@ -1,0 +1,78 @@
+/*
+Theme Name: Costa uslugi
+*/
+
+.uslugi{
+          text-align: center;
+          &-title{
+                    font-family: "Playfair Display";
+                    font-size: 42px;
+                    font-weight: 100;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    color: #000;
+                    margin: 1rem 0;
+
+          }
+
+          article{
+                    font-family: "Lato", sans-serif;
+                    color: #7a7a7a;
+          }
+          
+}
+
+.swiper {
+          width: 60%;
+          margin: 1rem auto;
+          height: 300px;
+        }
+  
+        .swiper-slide {
+          font-size: 18px;
+          color: #fff;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 40px 60px;
+        }
+  
+        .parallax-bg {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 130%;
+          height: 100%;
+          -webkit-background-size: cover;
+          background-size: cover;
+          background-position: center;
+          filter: brightness(50%);
+        }
+  
+        .swiper-slide .title {
+          font-size: 41px;
+          font-weight: 300;
+          margin-bottom: 1rem;
+        }
+  
+        .swiper-slide .subtitle {
+          font-size: 21px;
+        }
+  
+        .swiper-slide .text {
+          font-size: 16px;
+          max-width: 400px;
+          line-height: 1.2;
+          text-align: justify;
+        }
+
+        @media only screen and (max-width: 1400px) {
+          
+          .swiper {
+                    width: 95%;
+                  
+
+                  &-slide {
+                    text-align: center;
+                  }
+          }
+}

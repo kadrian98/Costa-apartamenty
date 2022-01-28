@@ -1,0 +1,25 @@
+/*
+Theme Name: Costa galeria
+*/
+.gallery {
+  display: flex;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+  &-header {
+    font-family: "Playfair Display";
+    font-size: 42px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    padding: 2px;
+    height: auto;
+    text-align: center;
+  }
+}
