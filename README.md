@@ -1,1 +1,1 @@
-http://costa-apartamenty.pl/
+https://costa-apartamenty.pl/
